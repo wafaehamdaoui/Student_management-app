@@ -7,9 +7,9 @@ School Management System is a large database system which can be used for store 
 
 The application that I created is a simple interface where you can store personnals informations of students and thier courses.
 
-So my application allo you to register student as an administrator_login and allow you to do some operations on those records like ***Search***, ***Update*** , ***Delete***... or you can just view your own information as a student_login .
+So my application allo you to register students as an `administrator_login` and allow you to do some operations on those records like ***Search***, ***Update*** , ***Delete***... or you can just view your own information as a `student_login` .
 
-> In my project I respect the following points:
+**In my project I respect the following points:**
 
 > I used QMainWindow,
 
@@ -61,3 +61,19 @@ In the file manager, select the files to be added.
 > **QSqlDriver** ,
 
 > **QSpacerItem** 
+
+
+Mainly our application is devided in to part , one take care of students users ant the other one  focus on Admins users .
+
+## Part One:
+
+ School management Application is in the MainWindow class, which inherits QMainWindow. QMainWindow provides the framework for windows that have menus, toolbars, dock windows, and a status bar. 
+ 
+ The application provides File, Tools, View and Help entries in the menu bar, with the following Actions:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
