@@ -105,8 +105,8 @@ In the file manager, select the files to be added.
  ▪ The application provides File, View and Help entries in the menu bar, with the following Actions:
  
  ![image](https://user-images.githubusercontent.com/75392302/152679480-b217df80-df63-465f-a2cb-1a8203440dfb.png)
-![image](https://user-images.githubusercontent.com/75392302/152679501-ad6fc0e8-9d89-4567-a4e2-30d5527be88d.png
-![image](https://user-images.githubusercontent.com/75392302/152679516-842dbec1-6c8c-4902-bb81-23ba9a2a4005.png)
+ ![image](https://user-images.githubusercontent.com/75392302/152688968-bdd60c78-ea70-4ff7-88dd-55a8719695fe.png)
+ ![image](https://user-images.githubusercontent.com/75392302/152679516-842dbec1-6c8c-4902-bb81-23ba9a2a4005.png)
 
 ### Login window
 
