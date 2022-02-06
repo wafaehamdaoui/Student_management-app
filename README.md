@@ -1,12 +1,44 @@
-# Student_management-app
+# School_management-app
 this is my final project of GUI Programming with QT course
-## School Management System
+## Introduction
 
 School Management System is a large database system which can be used for store student's information. Most importantly, this information can be easily shared with authorized users, records can be easily searched, and reports can be easily generated.
 
-The application that I created is a simple interface where you can store personnals informations of students and thier courses.
+## Motivation:
 
-So my application allo you to register students as an `administrator_login` and allow you to do some operations on those records like ***Search***, ***Update*** , ***Delete***... or you can just view your own information as a `student_login` .
+▪ To meet a solution to manage students' records .
+
+▪ To overcome existing problems occurring in maintenance of students' information.
+
+## Objectives:
+
+▪ To manage students' information guring admission and examination.
+
+▪ Efficient utilization of human resource.
+
+▪ To reduce unnecessary paper work in maintaining students' information.
+
+## Applications:
+
+▪ To use for various streams' student.
+
+▪ To gather students' information.
+
+▪ Different reports and queries can be generated based of vast options related to students ,courses, Teachers...
+
+## Data Flow Diagram of SMS :
+
+![image](https://user-images.githubusercontent.com/75392302/152677987-ef3147e4-de03-4e40-b29c-a22f80e4dc57.png)
+
+![image](https://user-images.githubusercontent.com/75392302/152677883-a70b2456-e3ee-4a1a-82cb-ddb8fc5992f8.png)
+
+![image](https://user-images.githubusercontent.com/75392302/152677893-747b0511-d890-4f90-abc5-062a47679f94.png)
+
+![image](https://user-images.githubusercontent.com/75392302/152677910-de27f868-88c3-465c-8145-a94b5d66978c.png)
+
+
+
+
 
 **In my project I respect the following points:**
 
