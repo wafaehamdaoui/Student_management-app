@@ -29,14 +29,8 @@ School Management System is a large database system which can be used for store 
 ## Data Flow Diagram of SMS :
 
 ![image](https://user-images.githubusercontent.com/75392302/152677987-ef3147e4-de03-4e40-b29c-a22f80e4dc57.png)
-
-![image](https://user-images.githubusercontent.com/75392302/152677883-a70b2456-e3ee-4a1a-82cb-ddb8fc5992f8.png)
-
-![image](https://user-images.githubusercontent.com/75392302/152677893-747b0511-d890-4f90-abc5-062a47679f94.png)
-
-![image](https://user-images.githubusercontent.com/75392302/152677910-de27f868-88c3-465c-8145-a94b5d66978c.png)
-
-
+![image](https://user-images.githubusercontent.com/75392302/152678240-2a8b6efe-a2d2-4e56-bf2b-317013d69620.png)
+![image](https://user-images.githubusercontent.com/75392302/152678304-3a2b616a-3b19-4585-91b6-7cc8bfcdf642.png)
 
 
 
