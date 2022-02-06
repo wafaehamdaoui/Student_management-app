@@ -285,6 +285,35 @@ For view all code I invite to visit the link  behind: https://github.com/wafaeha
 ## Conclusion:
  
  This project completely functions for showing it as a prototype of college projects. Features in the project include Login features ,  Adding Student,view Students which is registering by admin, View/Edit students details, Delete Student From the record... .The main Activity is focused for the admin only who is like a chairman to all organization and setup the data.
+ 
+ during this project I learned how to use Documentation of Qt and I refreshed my knowledge in sql and database.
+ 
+ Through this project I was able to reinvest the majority the concepts learned during the training of GUI Programming with QT.
+ 
+ leading a project from start to finish , starting from scratch was a rewarding experience and motivating for me.
+ 
+ 
+ 
+ ## Remarks:
+ 
+ Please before executing try to change paths of Databases .
+ 
+ You can use `AnassBelcaid` as username and `CPP` as a password to Login as an admin.
+ 
+ To login as a student you can use full name as username and register number as password ( After registering new student ).
+ 
+ To login as a Teacher you can full name as username and ID as password ( After adding new Teacher ).
+ 
+ I hope you like the system and be useful for you.
+ 
+ > Happy Recording !!
+
+Thank you !
+
+Wafae Hamdaoui.
+ 
+
+  
 
  
  
