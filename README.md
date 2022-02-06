@@ -103,6 +103,7 @@ In the file manager, select the files to be added.
  ▪ School management Application is in the MainWindow class, which inherits QMainWindow. QMainWindow provides the framework for windows that have menus, toolbars and dock windows.
  
  ▪ The application provides File, View and Help entries in the menu bar, with the following Actions:
+ 
  ![image](https://user-images.githubusercontent.com/75392302/152679480-b217df80-df63-465f-a2cb-1a8203440dfb.png)
 ![image](https://user-images.githubusercontent.com/75392302/152679501-ad6fc0e8-9d89-4567-a4e2-30d5527be88d.png
 ![image](https://user-images.githubusercontent.com/75392302/152679516-842dbec1-6c8c-4902-bb81-23ba9a2a4005.png)
@@ -131,11 +132,14 @@ private slots:
 Clicking on Admin Login show a dialog. This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
 This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
 
- For this Version You can use `AnassBelcaid` as a username an `CPP` as password.![image](https://user-images.githubusercontent.com/75392302/152680517-edaf2eaa-9e06-47fe-a8f4-64a33f7ac07b.png)
+ For this Version You can use `AnassBelcaid` as a username an `CPP` as password.
+ 
+ ![image](https://user-images.githubusercontent.com/75392302/152680517-edaf2eaa-9e06-47fe-a8f4-64a33f7ac07b.png)
 
 so we go to the Login Database and we verify if the it contains the entered values , if yes we show mainwindow if not we show a warning  message;
 
-Admin Tasks:
+## Admin Tasks:
+
 ![image](https://user-images.githubusercontent.com/75392302/152680637-67ca2ff6-ef92-4ad4-ad07-c7e48799712b.png)
 
 ***Add New Student***
@@ -159,6 +163,7 @@ db = QSqlDatabase::addDatabase("QSQLITE");
     db.close();
 ```
 ***Search/Delete/Edit Student Details***
+
 ![image](https://user-images.githubusercontent.com/75392302/152682459-0359018f-5fea-4b3d-aeb1-63c3ca3fc043.png)
 ![image](https://user-images.githubusercontent.com/75392302/152682496-2b6b9cf5-ea0c-4cec-b520-17078d8ca73e.png)
 ![image](https://user-images.githubusercontent.com/75392302/152682586-846d7d27-9cc2-4085-a203-96660085cb98.png)
@@ -169,16 +174,69 @@ db = QSqlDatabase::addDatabase("QSQLITE");
  
  As I can delete a student from system.
  
- ***View/Update student' Notes:
+ ***View/Update student' Notes:***
+ 
  ![image](https://user-images.githubusercontent.com/75392302/152682964-6d5dc7f8-2f0b-4d9c-b0d9-9637462d78ae.png)
 ![image](https://user-images.githubusercontent.com/75392302/152682997-6ee9ae91-4b43-48b3-b9e4-9271700f5f1f.png)
 ![image](https://user-images.githubusercontent.com/75392302/152683078-6a754091-cd13-4cf9-a170-97602f9add42.png)
 
+***Add New Teacher***
 
+![image](https://user-images.githubusercontent.com/75392302/152683373-1c0ed600-dcee-484a-b2d9-dc37d20ffddc.png)
 
+When the admin add a student we automaticaly add a new user in teacher login database:
 
 ```cpp
+db = QSqlDatabase::addDatabase("QSQLITE");
+    db.setDatabaseName("C:\\Users\\Hello\\Desktop\\ProjectDatabase\\teacherLogin.db");
+    if(!db.open())
+        QMessageBox::critical(this,"Error","could not open the database");
+
+    //Add user
+
+    QString user{"insert into LoginStudent values('"+fname+lname+"','"+teachID+"' )"};
+    if(!query->exec(user))
+        QMessageBox::critical(this,"Error","could not add the user");
+
+    db.close();
+```
+As you can view previous enteries teachers just select Teacher Details.
+
+## Teacher Tasks:
+
+![image](https://user-images.githubusercontent.com/75392302/152687506-bb188354-e9c3-4dfb-baa6-f8e1591407c6.png)
  
+ A teacher can also view his personal details and student' informations.
+ 
+ ***Enter Notes***
+ 
+ ![image](https://user-images.githubusercontent.com/75392302/152688653-d873437a-16c9-4513-bbd1-fd84a06d9497.png)
+
+ ***View Student Details***
+ 
+ ***View Personal Details***
+ 
+ ### Student Tasks:
+ 
+ A student can only view his personal and academic details and don't have right to modify any information.
+ 
+ ![image](https://user-images.githubusercontent.com/75392302/152688762-e6ad056a-6469-49c8-94a8-4825679b9f65.png)
+
+
+ ![image](https://user-images.githubusercontent.com/75392302/152688739-d50ba1d9-e947-46eb-9547-f557b35ab2b5.png)
+
+## About the system:
+
+ just click on `About system`to view system information .
+ 
+ ![image](https://user-images.githubusercontent.com/75392302/152688897-226145b0-4bfe-493f-b27f-e785edba6479.png)
+
+ 
+
+ 
+ 
+ 
+
 
 
  
