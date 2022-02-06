@@ -211,19 +211,22 @@ As you can view previous enteries teachers just select Teacher Details.
  ***Enter Notes***
  
  ![image](https://user-images.githubusercontent.com/75392302/152688653-d873437a-16c9-4513-bbd1-fd84a06d9497.png)
+ ![image](https://user-images.githubusercontent.com/75392302/152691600-7d75cf07-05fc-42e9-8d82-22e444ea1ea3.png)
 
  ***View Student Details***
  
+ ![image](https://user-images.githubusercontent.com/75392302/152691701-c2a50280-6969-4220-998a-6514f0bfb739.png)
+
  ***View Personal Details***
  
  ### Student Tasks:
  
  A student can only view his personal and academic details and don't have right to modify any information.
  
- ![image](https://user-images.githubusercontent.com/75392302/152688762-e6ad056a-6469-49c8-94a8-4825679b9f65.png)
+![image](https://user-images.githubusercontent.com/75392302/152690395-c95f4058-8cc3-4196-951d-d0045ca151ad.png)
+![image](https://user-images.githubusercontent.com/75392302/152688739-d50ba1d9-e947-46eb-9547-f557b35ab2b5.png)
+![image](https://user-images.githubusercontent.com/75392302/152691961-4187ded0-6827-4c6e-8d7c-5a1ae324d8e1.png)
 
-
- ![image](https://user-images.githubusercontent.com/75392302/152688739-d50ba1d9-e947-46eb-9547-f557b35ab2b5.png)
 
 ## About the system:
 
