@@ -9,6 +9,8 @@ It is an honor for me to thank my advisor. This would not be possible without hi
 
 ## Introduction
 
+Schools and Universities are the foundation of Knowledge and an educational body on which student rely upon. Therefore, they need to maintain a proper database of its students/teachers to keep all the updated records and easily share information with students/teachers
+
 School Management System is a large database system which can be used for store student's information. Most importantly, this information can be easily shared with authorized users, records can be easily searched, and reports can be easily generated.
 
 ## Motivation:
@@ -129,14 +131,45 @@ private slots:
 ```
 **Admin Login**
 
-Clicking on Admin Login show a dialog. This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
+Clicking on `Admin Login` show a dialog. This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
 This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
 
- For this Version You can use `AnassBelcaid` as a username an `CPP` as password.
+ For this session You can use `AnassBelcaid` as a username an `CPP` as password.
  
  ![image](https://user-images.githubusercontent.com/75392302/152680517-edaf2eaa-9e06-47fe-a8f4-64a33f7ac07b.png)
 
 so we go to the Login Database and we verify if the it contains the entered values , if yes we show mainwindow if not we show a warning  message;
+
+**Teacher Login**
+
+Clicking on `Teacher Login` show a dialog. This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
+This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
+
+A teacher can get his username and password from the administrator .
+
+![image](https://user-images.githubusercontent.com/75392302/152692221-310a93d3-3c68-4802-898f-d982292252c3.png)
+
+so we go to the Login Database and we verify if the it contains the entered values , if yes we show mainwindow if not we show a warning  message;
+
+**Student Login:**
+
+Clicking on `Student Login` show a dialog. This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
+This dialog prompts the user to enter the username and password to go to the main window of the applicaton.
+
+A student get his password and username from an administrator.
+
+![image](https://user-images.githubusercontent.com/75392302/152692336-5c941cb3-d349-4104-a02d-4b21f547c8da.png)
+
+and of course we go to the Login Database and we verify if the it contains the entered values , if yes we show mainwindow if not we show a warning  message;
+
+***successful Login:***
+
+![image](https://user-images.githubusercontent.com/75392302/152692524-86be313a-d3e4-43b9-b960-bb11552cc12f.png)
+
+***Reject Login***
+
+![image](https://user-images.githubusercontent.com/75392302/152692417-020e5b49-9b72-4e7f-a05b-78682443ebf0.png)
+
 
 ## Admin Tasks:
 
@@ -235,6 +268,23 @@ As you can view previous enteries teachers just select Teacher Details.
  ![image](https://user-images.githubusercontent.com/75392302/152688897-226145b0-4bfe-493f-b27f-e785edba6479.png)
 
  
+## Code source :
+
+For view all code I invite to visit the link  behind: https://github.com/wafaehamdaoui/Final-Project
+
+## Future Scope
+
+▪ In the future student can also be able to modify their information an upload thir images.
+
+▪ We will have Statistics Traccking and Analytics .
+
+▪ We will have details about planing , bibliotheca .
+
+▪ The whole project will be made available as an Android app for far more ease of use and mobility .
+
+## Conclusion:
+ 
+ This project completely functions for showing it as a prototype of college projects. Features in the project include Login features ,  Adding Student,view Students which is registering by admin, View/Edit students details, Delete Student From the record... .The main Activity is focused for the admin only who is like a chairman to all organization and setup the data.
 
  
  
