@@ -305,6 +305,8 @@ For view all code I invite to visit the link  behind: https://github.com/wafaeha
  
  To login as a Teacher you can full name as username and ID as password ( After adding new Teacher ).
  
+ Before register a student or a teacher please add his or her image in the resources file and named it with the full name of the teacher or the student.
+ 
  I hope you like the system and be useful for you.
  
  > Happy Recording !!
