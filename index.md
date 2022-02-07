@@ -1,9 +1,6 @@
-## Welcome to GitHub Pages
+# School_management-app
 
 You can use the [editor on GitHub](https://github.com/wafaehamdaoui/Student_management-app/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-# School_management-app
-this is my final project of GUI Programming with QT course
 
 ## Acknowledgement:
 
